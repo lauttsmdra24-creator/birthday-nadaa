@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arcade Gamer</title>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600;700&family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<canvas id="fx"></canvas><canvas id="wipe"></canvas>
+
+<section class="pg on" id="p1"><div class="box" id="b1" style="--ar:916/515">
+<div class="stage" id="hero"><img class="fill" data-img="hero" alt=""><button id="screen" aria-label="Start game"></button>
+<button id="play" aria-label="PLAY"><img data-img="play" alt="PLAY"></button></div></div></section>
+
+<section class="pg" id="p2"><div class="box" id="b2"><div class="panel">
+<div class="bar"><div class="tr"><div class="in"><div class="fl" id="fl"></div></div></div><img class="h" data-img="heart" alt=""></div>
+<div class="ld" id="ld">LOADING...</div><div class="pc" id="pc">0%</div><div class="tip" id="tip"></div></div></div></section>
+
+<section class="pg" id="p3"><div class="box" id="col3">
+<div class="hud"><b>LV.1</b><span id="lives"></span><b id="score">000000</b><button id="snd">SOUND ON</button></div>
+<div class="stage" id="game"></div></div><div id="dpw"></div></section>
+
+<section class="pg" id="p4"><div class="box" id="b4"><div class="win" id="win"><div class="hd"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+<div class="bd cur" id="msg"></div></div><button class="rbtn" id="again">MAIN LAGI</button></div></section>
+
+<script src="assets.js"></script>
+<script src="script.js"></script></body></html>
